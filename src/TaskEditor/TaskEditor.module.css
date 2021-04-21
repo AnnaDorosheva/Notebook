@@ -4,13 +4,7 @@
   /* box-shadow: 0 10px 5px -5px rgba(46, 70, 88, 0.2); */
   padding: 10px;
 }
-/* .headText {
-  font-size: 14px;
-  text-align: center;
-  color:#696a6e;
-  padding-bottom: 6px;
-  margin: 0;
-} */
+
 .headName {
   font-size: 22px;
   font-weight: 600;
@@ -38,4 +32,17 @@
   display: block;
   margin: 10px;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+.headName {
+  font-size: 30px;
+}
+.textarea {
+  width: 480px;
+}
+.createBtn {
+  width: 180px;
+  height: 30px;
+}
 }
