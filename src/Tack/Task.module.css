@@ -1,0 +1,50 @@
+.task {
+  font-size: 14px;
+  width: 320px;
+  border: 2px solid #767880;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+  padding: 6px;
+  margin: 6px;
+  /* transition: transform .3s; */
+}
+
+.task:hover {
+  transform: scale(1.05);
+  transition: 0.4s;
+}
+.lowPriority {
+  background-color: rgb(243, 241, 144);
+}
+
+.normalPriority {
+  background-color: rgb(176, 235, 235);
+}
+
+.highPriority {
+  background-color: rgb(240, 175, 175);
+}
+
+.taskMenu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  border: 1px solid rgb(149, 147, 151);
+  background-color:  rgba(95, 158, 160, 0.5);
+  vertical-align: middle;
+}
+
+.text {
+  display: inline-block;
+  padding: 6px;
+  vertical-align: middle;
+}
+/* .select {
+
+} */
+.btnDelete {
+  cursor: pointer;
+}
