@@ -46,3 +46,11 @@ padding: 0;
 li {
 display: block;
 }
+
+.headText {
+  font-size: 22px;
+  text-align: center;
+  color:rgba(73, 73, 75, 0.8);
+  padding-bottom: 6px;
+  margin: 0;
+}

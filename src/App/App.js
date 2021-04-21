@@ -78,6 +78,7 @@ export default class App extends Component {
       <div>
         <TaskEditor onAddTask={this.addTask} />
         <div className={styles.container}>
+        <h2 className={styles.headText}>Create your day... create your life...</h2>
         <TaskFilter value={filter} onChangeFilter={this.changeFilter} />
         <TaskList
           items={filteredTasks}

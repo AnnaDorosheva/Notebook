@@ -24,7 +24,7 @@ const Task = ({ text, complited = false, priority = 'normal', id, onDeleteTasks,
           <input type="checkbox" checked={complited} onChange={onUpdateCompleted}/>
         </label>
 
-        <button className={styles.btnDelete} type='button' onClick={onDeleteTasks}>Delete</button>
+        <button className={styles.btnDelete} type='button' onClick={onDeleteTasks}></button>
       </div>
     </div>
   );

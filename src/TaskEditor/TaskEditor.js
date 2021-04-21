@@ -40,7 +40,7 @@ export class TaskEditor extends Component {
     return (
       <div className={styles.head}>
         <h1 className={styles.headName}>Your task manager</h1>
-        <h2 className={styles.headText}>Create your day... create your life...</h2>
+        {/* <h2 className={styles.headText}>Create your day... create your life...</h2> */}
 
         <form onSubmit={this.handleSubmit}>
           <textarea
